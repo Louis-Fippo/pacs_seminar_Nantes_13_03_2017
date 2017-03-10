@@ -1,0 +1,47 @@
+\tikzstyle{grn}=[every node/.style={circle,draw=black,outer sep=2pt,minimum
+                size=15pt,text=black}, node distance=1.5cm]
+\tikzstyle{inh}=[>=|,-|,draw=colorinh]%,thick, text=black,label]
+\tikzstyle{act}=[->,>=triangle 60,draw=coloract,thick,color=coloract]
+\tikzstyle{inhgray}=[>=|,-|,draw=colorinhgray,thick, text=black,label]
+\tikzstyle{actgray}=[->,>=triangle 60,draw=coloractgray,thick,color=coloractgray]
+\tikzstyle{inf}=[->,draw=colorinf,thick,color=colorinf]
+%\tikzstyle{elabel}=[fill=none, above=-1pt, sloped,text=black, minimum size=10pt, outer sep=0, font=\scriptsize,draw=none]
+\tikzstyle{elabel}=[fill=none,text=black, above=-2pt,%sloped,
+minimum size=10pt, outer sep=0, font=\scriptsize, draw=none]
+\tikzstyle{reach}=[->,dashed]
+
+
+\tikzstyle{plot}=[every path/.style={-}]
+\tikzstyle{axe}=[gray,->,>=stealth']
+\tikzstyle{ticks}=[font=\scriptsize,every node/.style={gray}]
+\tikzstyle{mean}=[thick]
+\tikzstyle{interval}=[line width=5pt,red,draw opacity=0.7]
+
+\tikzstyle{hl}=[yellow]
+\tikzstyle{hl2}=[orange]
+
+\tikzstyle{every matrix}=[ampersand replacement=\&]
+\tikzstyle{shorthandoff}=[]
+\tikzstyle{shorthandon}=[]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%Definition des éléments pour un reseau de signalisation%%%%%%%%%%%%%%%%%
+\tikzstyle{sn}=[circle, draw, thin,fill=cyan!20, scale=0.8] %seed node
+\tikzstyle{snpat}=[circle, draw=purple, thin, scale=0.8] %identify patterns
+\tikzstyle{ps}=[rectangle, draw, thin,fill=white!20, scale=0.8] %protein de signalisation
+\tikzstyle{cplx}=[square, draw, thin, fill=white!20, scale=0.8] %définition d'un complex
+\tikzstyle{ecad}=[square, draw, thin, fill=blue!20, scale=0.8] %définition de l'input
+\tikzstyle{transl}=[diamond, draw, thin, fill=white!20, scale=0.3]
+\tikzstyle{mod}=[triangle, draw, thin, fill=white!20, scale=0.3]
+\tikzstyle{qgre}=[rectangle, draw, thin,fill=green!20, size=15pts]
+\tikzstyle{tgrn}=[triangle, draw, thin, fill=green!20, scale=0.8]
+
+%Ajout des arc qui ne sont pas définis dans le grn
+\tikzstyle{st}=[->, draw, thin, dashed] %définition d'un state transition
+\tikzstyle{stv}=[->, draw=purple, thin, dashed, ultra thick]
+\tikzstyle{inhN}=[>=|,-|,draw=colorinh,thick, text=black,label,scale=0.1]
+\tikzstyle{actN}=[->,>=triangle 60,draw=coloract,thick,color=coloract,scale=0.1]
+
+
+

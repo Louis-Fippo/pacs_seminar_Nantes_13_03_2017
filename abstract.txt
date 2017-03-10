@@ -1,0 +1,17 @@
+Title: Parameter synthesis by using abstract interpretation in Parameter  Stochastic Automata Networks
+
+
+Modeling and understanding of complex systems, particularly biological systems, 
+often requires knowledge of the parameters that govern interactions between components. 
+For some parameters, values or ranges of values can be obtained experimentally, 
+but for others it remains difficult to decide.
+
+In this preliminary work, we propose an approach based on the abstract interpretation 
+of traces in Parametric Stochastic Automata Networks (PSAN), to synthesize the
+optimal timing delays guaranteeing that the system satisfies a given quantitative property.
+Properties of the system are express by using Concurrent Continous Stochastic Logic (CCSL)
+and we relay to constraint programming for optimal parameter synthesis.
+
+
+Keywords: 
+  
